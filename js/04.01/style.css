@@ -1,0 +1,17 @@
+.elem1{
+    border: 1px solid gray;
+    padding: 13px;
+    width: 500px;
+}
+
+.elem1 button{
+    border: 0;
+    background-color: antiquewhite;
+    padding: 10px 17px;
+    border-radius: 5px;
+}
+
+.elem1 button:hover{
+   cursor: pointer;
+   background-color: aqua;
+}

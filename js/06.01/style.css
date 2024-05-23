@@ -1,0 +1,30 @@
+.news{
+    border: 1px solid blue;
+    padding: 12px;
+    width: 400px;
+
+}
+
+.btn{
+    border: 0;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 15px;
+    width: 100%;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.title{
+    background-color: aqua;
+}
+
+.text-blue{
+    color: blue;
+}
+
+.text-red{
+    color: red;
+}

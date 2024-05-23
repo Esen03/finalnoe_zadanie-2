@@ -1,0 +1,277 @@
+.box-1 h1, h2, h3, h4{
+    text-align: center;
+    color: #646464;
+}
+.box-1 h1{
+    font-size: 70px;
+    font-style: bold;
+}
+
+.box-1 h2{
+    font-size: 40px;
+    font-style: normal;
+}
+
+.box-1 h3{
+    font-size: 20px;
+}
+
+.box-1 h4{
+    font-size: 18px;
+}
+
+.box-2 p{
+    color: #333;
+    font-size: 16px;
+}
+
+.box-2{
+    text-align: justify;
+    align-items: center;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+
+hr{
+    width: 60%;
+}
+
+#bgcolor{
+    background-color: white;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    
+    
+}
+
+.text h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7893b0;
+    margin-left: 20px;
+  flex-wrap: wrap;
+}
+
+*{
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+header{
+display: flex;
+align-items: center;
+
+
+
+}
+.head{
+    background: #ffdf37;
+    margin: 0px;
+    padding: 0px;
+}
+.menu {
+    display: flex;
+    align-items: center; /* Выравнивание по центру*/
+    padding: 0;
+  }
+  
+  .horizontal-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 50px;
+    font-family: poppins;
+
+  }
+  
+  .horizontal-list li {
+    margin-right: 50px; /* Расстояние между ними*/
+  }
+
+  .horizontal-list a{
+    text-decoration: none;
+  }
+
+  .box-1{
+    margin-top: 120px;
+  }
+
+  [href^="https://"]{
+    width: 53px;
+height: 13px;
+flex-shrink: 0;
+
+color: #553C16;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: 13px; /* 100% */
+letter-spacing: 0.5px;
+text-decoration: none;
+
+
+
+  }
+
+  #sign1{
+    width: 38px;
+height: 13px;
+flex-shrink: 0;
+
+color: #553C16;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: 13px; /* 100% */
+letter-spacing: 0.5px;
+text-decoration: none;
+margin-left: 200px;
+  }
+
+ .text a{
+  text-decoration: none;
+  color: black;
+ }
+
+ .services{
+    width: 590px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #12bb91;
+    border-radius: 25px;
+    
+ }
+
+ .img_content img{
+    width: 236px;
+    height: 240px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    
+ }
+
+ .title{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+ }
+
+ .sub-title{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
+ }
+
+ .get-btn{
+    background: #ffdf37;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    color: #2f3137;
+    font-size: 16px;
+    font-weight: 500;
+ }
+
+ .news-card{
+  width: 650px;
+  border: 3px solid darkblue;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+ }
+
+ *{
+  padding: 0;
+  margin: 0;
+ }
+
+ .news-card img{
+  width: 100%;
+ }
+
+ .news-card h1:hover{
+  color: blue;
+  cursor: pointer;
+ }
+
+ .news-card button{
+  margin: 20px 0;
+  padding: 10px 20px;
+  border: 1px solid lightblue;
+  background-color: transparent;
+  
+ }
+
+ .news-card button:hover{
+  cursor: pointer;
+  background-color: aqua;
+  color: #fff;
+ }
+
+ ul{
+  list-style-type: none;
+ }
+
+ a:visited{
+  color: red;
+ }
+
+ body{
+  background-color: #2f3137;
+ }
+
+.form-cont{
+width: 500px;
+border: 1px solid black;
+padding: 15px;
+margin: 0 auto;
+background-color: #fff;
+}
+
+.form-cont input{
+  height: 40px;
+  width: 100%;
+
+}
+
+.form-cont div{
+  margin-bottom: 15px;
+}
+
+input:focus{
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 10px 1px lightslategray;
+}
+
+li:last-child{
+  background-color: lightseagreen;
+}
+
+/* новая страница */
+
+.container{
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.logo img{
+  margin-top: 16px;
+}

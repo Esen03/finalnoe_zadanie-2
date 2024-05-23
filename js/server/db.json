@@ -1,0 +1,27 @@
+{
+  "posts": [
+    {
+      "title": "Javascript 2024",
+      "views": 356,
+      "id": "d939"
+    }
+  ],
+  "comments": [
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "4183"
+    },
+    {
+      "id": "1",
+      "text": "Javascript",
+      "postId": "d939"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,35 @@
+.btn{
+    border: 0;
+    background-color: aqua;
+    padding: 15px 35px;
+    border-radius: 8px;
+}
+
+.modal{
+    width: 500px;
+    padding: 10px;
+    background-color: #74a1a1;
+    margin: 0 auto;
+    opacity: 0;
+    /* display: none; */
+}
+
+
+
+.form-control{
+    margin-bottom: 10px;
+
+}
+
+.form-control input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.form-control .btn{
+    width: 100%;
+}
+
